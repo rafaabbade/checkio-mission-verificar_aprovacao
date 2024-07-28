@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def verificar_aprovacao(nota, experiencia, curso_preparatorio):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(verificar_aprovacao(75, 3, True))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert verificar_aprovacao(75, 3, True) == "Aprovado"
+assert verificar_aprovacao(65, 4, True) == "Reprovado"
+assert verificar_aprovacao(80, 1, True) == "Reprovado"
+assert verificar_aprovacao(90, 3, False) == "Reprovado"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
